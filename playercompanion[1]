@@ -1,0 +1,2132 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>
+		PlayerCompanion: Extra Features for Addon Peds - GTA5-Mods.com
+	</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="msapplication-config" content="none">
+<meta name="theme-color" content="#20ba4e">
+<meta name="msapplication-navbutton-color" content="#20ba4e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#20ba4e">
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="chJQrS4STFXErDGGCc6Ys0SoYO3bEJNverTx7mG4aCiQIriiWUZoaq8QlFXdA/AXTILUxqs0B2Vs9ZGbCone0Q==" />
+
+<meta property="og:url" content="https://www.gta5-mods.com/scripts/playercompanion">
+<meta property="og:title" content="PlayerCompanion: Extra Features for Addon Peds">
+<meta property="og:description" content="PlayerCompanion is a mod for Grand Theft Auto V that aims to extend the gameplay features of the game by adding some extra tools for developers and users alike:  * An Inventory system that can be shared across different mods, where any developer can add and consume Items * Persistant Storage of Weapons for Addon Peds (including MK2 Weapons) * Wallet for storing the Money of Addon Peds (dependant on mod compatibility) * Custom HUD Colors f...">
+<meta property="og:site_name" content="GTA5-Mods.com">
+<meta property="og:image" content="https://img.gta5-mods.com/q75/images/playercompanion/850b86-Presentation.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@5mods">
+<meta name="twitter:title" content="PlayerCompanion: Extra Features for Addon Peds">
+<meta name="twitter:description" content="PlayerCompanion is a mod for Grand Theft Auto V that aims to extend the gameplay features of the game by adding some extra tools for developers and users alike:  * An Inventory system that can be shared across different mods, where any developer can add and consume Items * Persistant Storage of Weapons for Addon Peds (including MK2 Weapons) * Wallet for storing the Money of Addon Peds (dependant on mod compatibility) * Custom HUD Colors f...">
+<meta name="twitter:image" content=https://img.gta5-mods.com/q75/images/playercompanion/850b86-Presentation.png"">
+<link rel="shortcut icon" type="image/x-icon" href="https://images.gta5-mods.com/icons/favicon.png">
+<link rel="stylesheet" media="screen" href="/assets/application-cc2ec92f4b9dce5ffc33af8cfa9e9d199575bad137b4db34fdbb39533eff84cb.css" />
+<link rel="alternate" hreflang="id" href="https://id.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="ms" href="https://ms.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="bg" href="https://bg.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="ca" href="https://ca.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="cs" href="https://cs.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="da" href="https://da.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="de" href="https://de.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="el" href="https://el.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="en" href="https://www.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="es" href="https://es.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="fr" href="https://fr.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="gl" href="https://gl.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="ko" href="https://ko.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="hi" href="https://hi.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="it" href="https://it.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="hu" href="https://hu.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="mk" href="https://mk.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="nl" href="https://nl.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="nb" href="https://no.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="pl" href="https://pl.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="pt-BR" href="https://pt.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="ro" href="https://ro.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="ru" href="https://ru.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="sl" href="https://sl.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="fi" href="https://fi.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="sv" href="https://sv.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="vi" href="https://vi.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="tr" href="https://tr.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="uk" href="https://uk.gta5-mods.com/scripts/playercompanion">
+<link rel="alternate" hreflang="zh-CN" href="https://zh.gta5-mods.com/scripts/playercompanion">
+<script src="/javascripts/ads.js"></script>
+
+<script type="text/javascript">
+			var _paq = _paq || [];
+			/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+			_paq.push(["setCookieDomain", "*.www.gta5-mods.com"]);
+			_paq.push(["setDoNotTrack", true]);
+			_paq.push(['trackPageView']);
+			_paq.push(['enableLinkTracking']);
+			(function () {
+					var u = "//pw.nexusmods.com/";
+					_paq.push(['setTrackerUrl', u + 'piwik.php']);
+					_paq.push(['setSiteId', '2']);
+					var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+					g.type = 'text/javascript';
+					g.async = true;
+					g.defer = true;
+					g.src = u + 'piwik.js';
+					s.parentNode.insertBefore(g, s);
+			})();
+	</script>
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T3WKFQH');</script>
+
+</head>
+<body class=" en">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3WKFQH"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div id="page-cover"></div>
+<div id="page-loading">
+<span class="graphic"></span>
+<span class="message">Loading...</span>
+</div>
+<div id="page-cover"></div>
+<nav id="main-nav" class="navbar navbar-default">
+<div class="container">
+<div class="navbar-header">
+<a class="navbar-brand" href="/"></a>
+<ul class="nav navbar-nav">
+<li id="language-dropdown" class="dropdown">
+<a href="#language" class="dropdown-toggle" data-toggle="dropdown">
+<span class="famfamfam-flag-gb icon"></span>&nbsp;
+<span class="language-name">English</span>
+<span class="caret"></span>
+</a>
+<ul class="dropdown-menu dropdown-menu-with-footer">
+<li>
+<a href="https://id.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-id"></span>
+<span class="language-name">Bahasa Indonesia</span>
+</a>
+</li>
+<li>
+<a href="https://ms.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-my"></span>
+<span class="language-name">Bahasa Melayu</span>
+</a>
+</li>
+<li>
+<a href="https://bg.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-bg"></span>
+<span class="language-name">Български</span>
+</a>
+</li>
+<li>
+<a href="https://ca.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-catalonia"></span>
+<span class="language-name">Català</span>
+</a>
+</li>
+<li>
+<a href="https://cs.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-cz"></span>
+<span class="language-name">Čeština</span>
+</a>
+</li>
+<li>
+<a href="https://da.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-dk"></span>
+<span class="language-name">Dansk</span>
+</a>
+</li>
+<li>
+<a href="https://de.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-de"></span>
+<span class="language-name">Deutsch</span>
+</a>
+</li>
+<li>
+<a href="https://el.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-gr"></span>
+<span class="language-name">Ελληνικά</span>
+</a>
+</li>
+<li>
+<a href="https://www.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-gb"></span>
+<span class="language-name">English</span>
+</a>
+</li>
+<li>
+<a href="https://es.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-es"></span>
+<span class="language-name">Español</span>
+</a>
+</li>
+<li>
+<a href="https://fr.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-fr"></span>
+<span class="language-name">Français</span>
+</a>
+</li>
+<li>
+<a href="https://gl.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-es-gl"></span>
+<span class="language-name">Galego</span>
+</a>
+</li>
+<li>
+<a href="https://ko.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-kr"></span>
+<span class="language-name">한국어</span>
+</a>
+</li>
+<li>
+<a href="https://hi.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-in"></span>
+<span class="language-name">हिन्दी</span>
+</a>
+</li>
+<li>
+<a href="https://it.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-it"></span>
+<span class="language-name">Italiano</span>
+</a>
+</li>
+<li>
+<a href="https://hu.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-hu"></span>
+<span class="language-name">Magyar</span>
+</a>
+</li>
+<li>
+<a href="https://mk.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-mk"></span>
+<span class="language-name">Македонски</span>
+</a>
+</li>
+<li>
+<a href="https://nl.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-nl"></span>
+<span class="language-name">Nederlands</span>
+</a>
+</li>
+<li>
+<a href="https://no.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-no"></span>
+<span class="language-name">Norsk</span>
+</a>
+</li>
+<li>
+<a href="https://pl.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-pl"></span>
+<span class="language-name">Polski</span>
+</a>
+</li>
+<li>
+<a href="https://pt.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-br"></span>
+<span class="language-name">Português do Brasil</span>
+</a>
+</li>
+<li>
+<a href="https://ro.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-ro"></span>
+<span class="language-name">Română</span>
+</a>
+</li>
+<li>
+<a href="https://ru.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-ru"></span>
+<span class="language-name">Русский</span>
+</a>
+</li>
+<li>
+<a href="https://sl.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-si"></span>
+<span class="language-name">Slovenščina</span>
+</a>
+</li>
+<li>
+<a href="https://fi.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-fi"></span>
+<span class="language-name">Suomi</span>
+</a>
+</li>
+<li>
+<a href="https://sv.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-se"></span>
+<span class="language-name">Svenska</span>
+</a>
+</li>
+<li>
+<a href="https://vi.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-vn"></span>
+<span class="language-name">Tiếng Việt</span>
+</a>
+</li>
+<li>
+<a href="https://tr.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-tr"></span>
+<span class="language-name">Türkçe</span>
+</a>
+</li>
+<li>
+<a href="https://uk.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-ua"></span>
+<span class="language-name">Українська</span>
+</a>
+</li>
+<li>
+<a href="https://zh.gta5-mods.com/scripts/playercompanion">
+<span class="famfamfam-flag-cn"></span>
+<span class="language-name">中文</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="rdr2-link">
+<a href="https://www.nexusmods.com/reddeadredemption2" target="_blank">
+<img src="https://images.gta5-mods.com/site/RDR2.png" height="28px" alt="RDR2 mods">
+</a>
+</li>
+</ul>
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li class="hidden-xs">
+<a href="/upload">
+<span class="icon fa fa-upload"></span>
+Upload
+</a>
+</li>
+<li>
+<a href="/login?r=/scripts/playercompanion">
+<span class="icon fa fa-sign-in"></span>
+<span class="login-text">Log In</span>
+</a>
+</li>
+<li class="hidden-xs">
+<a href="/register?r=/scripts/playercompanion">
+<span class="icon fa fa-user-plus"></span>
+Register
+</a>
+</li>
+<li>
+<a href="/dark_mode" title="Dark mode">
+<span class="fa fa-moon-o"></span>
+</a>
+</li>
+<li id="search-dropdown">
+<a href="#search" class="dropdown-toggle" data-toggle="dropdown">
+<span class="fa fa-search"></span>
+</a>
+<div class="dropdown-menu">
+<div class="form-inline">
+<div class="form-group">
+<div class="input-group">
+<div class="input-group-addon"><span class="fa fa-search"></span></div>
+<input type="text" class="form-control" placeholder="Search GTA 5 mods...">
+</div>
+</div>
+<button type="submit" class="btn btn-primary">
+Search
+</button>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+<div id="banner" class="scripts">
+<div class="container hidden-xs">
+<div id="intro">
+<h1 class="styled">Welcome to GTA5-Mods.com</h1>
+<p>Select one of the following categories to start browsing the latest GTA 5 PC mods:</p>
+</div>
+</div>
+<div class="container">
+<ul id="navigation" class="clearfix en">
+<li class="tools ">
+<a href="/tools">
+<span class="icon-category"></span>
+<span class="label-border"></span>
+<span class="label-category ">
+<span>Tools</span>
+</span>
+</a>
+</li>
+<li class="vehicles ">
+<a href="/vehicles">
+<span class="icon-category"></span>
+<span class="label-border"></span>
+<span class="label-category ">
+<span>Vehicles</span>
+</span>
+</a>
+</li>
+<li class="paintjobs ">
+<a href="/paintjobs">
+<span class="icon-category"></span>
+<span class="label-border"></span>
+<span class="label-category ">
+<span>Paint Jobs</span>
+</span>
+</a>
+</li>
+<li class="weapons ">
+<a href="/weapons">
+<span class="icon-category"></span>
+<span class="label-border"></span>
+<span class="label-category ">
+<span>Weapons</span>
+</span>
+</a>
+</li>
+<li class="scripts active">
+<a href="/scripts">
+<span class="icon-category"></span>
+<span class="label-border"></span>
+<span class="label-category ">
+<span>Scripts</span>
+</span>
+</a>
+</li>
+<li class="player ">
+<a href="/player">
+<span class="icon-category"></span>
+<span class="label-border"></span>
+<span class="label-category ">
+<span>Player</span>
+</span>
+</a>
+</li>
+<li class="maps ">
+<a href="/maps">
+<span class="icon-category"></span>
+<span class="label-border"></span>
+<span class="label-category ">
+<span>Maps</span>
+</span>
+</a>
+</li>
+<li class="misc ">
+<a href="/misc">
+<span class="icon-category"></span>
+<span class="label-border"></span>
+<span class="label-category ">
+<span>Misc</span>
+</span>
+</a>
+</li>
+<li class="forums">
+<a href="https://forums.gta5-mods.com">
+<span class="icon-category"></span>
+<span class="label-border"></span>
+<span class="label-category ">
+<span>Forums</span>
+</span>
+</a>
+</li>
+<li id="more-dropdown" class="more dropdown">
+<a href="#more" class="dropdown-toggle" data-toggle="dropdown">
+<span class="icon-category"></span>
+<span class="label-border"></span>
+<span class="label-category ">
+<span>More</span>
+</span>
+</a>
+<ul class="dropdown-menu pull-right">
+<li>
+<a href="https://forums.gta5-mods.com/category/10/installation-help-troubleshooting">
+<span class="fa fa-question-circle"></span>
+Installation Help
+</a>
+</li>
+<li>
+<a href="http://www.gta5cheats.com" target="_blank">
+<span class="fa fa-external-link"></span>
+GTA 5 Cheats
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div id="ad-side" class="ad-side">
+<div id="div-gpt-ad-1561413444550-10"></div>
+</div>
+<script>
+    if (window.innerWidth < 1900) {
+        var sideAd = document.getElementById('ad-side');
+        sideAd.parentNode.removeChild(sideAd);
+    }
+</script>
+<div id="file" class="container" data-user-file-id="105115">
+<div id="ad-top-large" class="ad-top">
+<div id="div-gpt-ad-1561413444550-4"></div>
+</div>
+<div class="clearfix">
+<h1>
+PlayerCompanion: Extra Features for Addon Peds
+<span class="version">1.1.1</span>
+</h1>
+</div>
+<div id="file-container" class="row">
+<div class="col-sm-5 col-lg-4">
+<div class="ad-above-mod-dl-btn">
+<div id="div-gpt-ad-1561413444550-1"></div>
+</div>
+<a href="/scripts/playercompanion/download/112792" class="btn btn-primary btn-download">
+<span class="fa fa-download"></span>
+Download
+</a>
+<div class="file-actions">
+<div class="row">
+<div class="col-xs-12 share-container">
+<div id="share-list">
+<ul>
+<li>
+<a href="#share-facebook" class="facebook" title="Share to Facebook">
+<span class="fa fa-facebook"></span>
+</a>
+</li>
+<li>
+<a href="#share-twitter" class="twitter" title="Share to Twitter" data-text="PlayerCompanion: Extra Features for Addon Peds">
+<span class="fa fa-twitter"></span>
+</a>
+</li>
+<li>
+<a href="#share-vk" class="vk" title="Share to VKontakte">
+ <span class="fa fa-vk"></span>
+</a>
+</li>
+</ul>
+</div>
+<button class="btn btn-o-info btn-block">
+<span class="fa fa-share-alt "></span>
+<span>Share</span>
+</button>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="user-panel row">
+<div class="col-xs-3">
+<a href="/users/justalemon">
+<img class="img-responsive" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/404622/bccd77-LLENN.png" alt="Bccd77 llenn" />
+</a>
+</div>
+<div class="col-xs-9">
+<a class="username" href="/users/justalemon">justalemon</a>
+<br />
+<div class="user-social">
+<a title="Forum Profile" target="_blank" href="https://forums.gta5-mods.com/user/justalemon"><span class="fa fa-comments"></span></a>
+<a title="Twitter" target="_blank" href="https://www.twitter.com/justlemonades"><span class="fa fa-twitter-square"></span></a>
+<a title="YouTube" target="_blank" href="https://www.youtube.com/channel/UCEOwsaYl9b_oJ9VPnpFSfcg"><span class="fa fa-youtube"></span></a>
+<a title="Twitch" target="_blank" href="http://www.twitch.tv/justlemoncl"><span class="fa fa-twitch"></span></a>
+<a title="Steam" target="_blank" href="http://steamcommunity.com/id/76561198118215221"><span class="fa fa-steam-square"></span></a>
+<a title="Rockstar Games Social Club" target="_blank" href="http://socialclub.rockstargames.com/member/justalemon"><span class="fa fa-socialclub size-20"></span></a>
+<a title="GitHub" target="_blank" href="https://github.com/justalemon"><span class="fa fa-github"></span></a>
+<a title="Discord Server" target="_blank" href="https://discord.gg/Cf6sspj"><span class="fa fa-discord size-30"></span></a>
+</div>
+<div class="g-ytsubscribe" data-channel="null" data-channelid="UCEOwsaYl9b_oJ9VPnpFSfcg" data-layout="default" data-count="default"></div>
+<div class="button-donate">
+<div class="paypal-button-widget">
+<form method="post" action="https://www.paypal.com/cgi-bin/webscr" target="_blank">
+<input type="hidden" name="item_name" value="Donation for PlayerCompanion: Extra Features for Addon Peds [GTA5-Mods.com]">
+<input type="hidden" name="lc" value="en_GB">
+<input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="cmd" value="_donations">
+<input type="hidden" name="business" value="justlemoncl@gmail.com">
+<input type="hidden" name="bn" value="JavaScriptButtons_donate">
+<input type="hidden" name="notify_url" value="https://www.gta5-mods.com/ipn">
+<input type="hidden" name="custom" value="[404622, -1, 105115]">
+<button class="paypal-button paypal-style-primary paypal-size-small" type="submit" dir="ltr">
+<span class="paypal-button-logo">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA1RJREFUeNrkmr9v01AQx99LoC1SAatCpQgJ0krQSkjgKUOllg4wIsFfABmYaTa2wMZI5g7lPyD9CxoWZnfrBJm7YFja2LHNnUlQVdWJ794PO8pXerLS1ok/vfP37l4sBVNrm+/fwKEmzKoLy//x/ZOn6w0lE/YDHFrCnvwh/AGsDvwDfNvAv+DgiGKEsB1YTQ64ZMBiGv8UxQthGwDdoZxUYXxQTZRDmGFfh15iFNgV5dI+QO+YBL4vyieMtDMrER6l9+4sAaPemQJ2Sgrs5LmXScAUcyhIru4I10oO7Mwa8ERdIf79U9anJLEQcajvqqvz1oDphpVEQp6e/IPWKQnJWbkqkuoCUFyD11UjwOSSJIM/+mFHWRP1hYQlgt9p1Af3HugrS+DQvPoLEbYiAA9ct7W8d7wPy9FhWjXuhdhSdDftenGYOMyCrphMZyOpPB72/LW2VIHpQ4NOZ6YBo3Yhyjt2U9oicLj28LIfv1YBJreV0pJhxTduivjW7ct+9ZIFPNzWEWWNcPikntk3QFq7nAgzgQfGYZP5BRFuPM7dLOUFLm0NxugidF7lBaY7tIX6i/dtv75FOsdchC1E9/TZC/I5xoBNO/QZwGY480X5HGD6lBQFRmEnGNV/nbzd8EjTEntbx0CE0Zz6W89zw4I8znhYihqMreMZwOZMY8vAGmGxiwrq25SontcBB5i+raM4JWHqDqA3Hqyup0cFdTnAZMOScUBK1fQIqZpANAfwmpi2WfoChuVzgOk1GFpKNJcgu8e1oTa5DnO3dcL1R0XDdi+Wo7x1mOXQ/c3tImHTL8q5nRY5wsncHKmZN6CPEN0eF5g8NMRLS0XColF9Vumla1MEjLAN1eGB3FbG1xeLgG3mgR1blrjbOpYjjI1FY9w9S6nDLOBk0XiER89ptbNKDxeYVYNjvcDeEBAjeDSuvuoAJjt0tLKiErVXANM1nR4VrTWYH92mDVjtwAoObQV2EjB5SuI6NMVljQBzt3WYhuUJi6roLEnMCPemElih4TgqAzB5WwenJIVaWzgwWdEdpRpcOHCbeiHcGmyr/o4kdb3R8t7xIWO66gHw6lSmNLP3turQ2oCHjwhxHiv+NpXAgv/QuD9rwN60ArNgbTs06q8AAwC1swu0LaowrwAAAABJRU5ErkJggg==">
+</span><span class="paypal-button-content" dir="auto">
+Donate with <img alt="PayPal" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALoAAAAyCAYAAADr7cFEAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAB71JREFUeNrsXf114jgQd/zy/3IV4K0gbAUxFSyp4KCCkApCKiCpwKQCvBXgVGCoIE4FOBVw0q2cU7wSnhnJlp3TvOdlH/GHNPPTfMuEgYZOp1NyskdHduzYsWbHJPBEJsa/iB2vFmXD77Vlx5Lfe4D8OAKwN9JdHJ/aJc7cuYctSbBJy7LZDkUZIXA6CTX3aHuiXHMkgqkjD18079qkGTvygSgiEC8uLi72OqCPOxooZ+rOYxdFXWnbZABghwC94P+Ejpn577MYQ1cevyBTza1flxYw6bkbc2UK9K6DklvvwvRKm8u0HrhGf+kT0DnIfXDq3j9XUdzjbAxk4as1Oo9kHQ362uO4l0B3ZUma3DjomLSuC5SZJTtuLgSx/0/FccOOjfg7Vqt7sqMM9uz4LuTylySbBTuyrwB0BF72upWyAuYmd00rDpDM/0Qex41aDFooWjbcZ47Mra96yAsITo/V+SExktWvFEE8d8k+Hjw8nbguTbLZNJ0zABpj+GDiuryZMrxGmcexFZ8Uyvdf/4NF/8GHSwN/bO9Q6LGYaFQbT8m01VddMOBAlPGgtPzsEiiXkcDPRPKhSyGbgo2rsDgmSNLkXQl0pNYoLDNz3+RXso+fwe9q6rnz+EfKjqcK9MLHbArk7oS7VQksaQh4uAAfqmsI2nkNANdCAi1UNtCFPrYhG8ErLpu/m8bIzi0k2RRQPrNzbxTPpPMC08wFFOgaEfDMzwRO1G69RNwDFXAh+PBKAHmECNJj6botZs4WA9uTClj8O0TiQtVRyOU6w/IBKZ9I57rElrXGjOqjC+ZuEWNS0ZxY7IBqaQ7aCGmSmzSYbDH3hHTaGwDkMSawrbtCwiJtA3pev9LkGVEeIOsmyyUkmrMCwMwVghGf/DfByNwQ5OTFKwSb2l7MIu0HHc+iBjArSkgokLWBApoL2URdyUYRc4yw4w5tZ1yEaeaMvEdM+Fm+Pvjd0WiDkRgqiFmJn1CXBcGTRzmoRlqlskGT7wJcAei5BvKkY7moFu41lg9U12WsKCKMBTgpWnhTc1c6r5Iq3I8UKFTuL44AmQ6oy8JdhTtqxoVbGO771r67EuDGKo9MCtAnDkCu8x4g8zgogY7UGnOLE9lIILsP3JSbM5W5ZDxJga7JrFqsNlwWA/crQFrSJnqoKSAX9EYE+l7nukQOJsG14J1kVpfIlc6v5T0cvJ/je/Bfnw1lHCqCui/XhqnED2Bp0pXfHMgmldynJRIfmViwU6kPitpnkyncL3ocKTbHdk0z6fk7W70XhD6blS5wg6bLzowlN+0dQvLG1p7ekRRzYdKGcVNAjhzLpHb9zCj9jcx526B5DZhG+XZV4EVZcIr7bCm53irzhABIdGYMxw7lcpTBhZjDK7SQg9ngTeTpa9ADrXGsgxWxyFYYm4fQppMz94AWNdYKqwKl5bl0YIcgz+sLDlFYmiDkArUSOVHx7ALHWmOn0lxAZh6x2+2g2ghwnyNWiyAW2daiZTJRPiuNC2itGkvgz4543R9zCZFJeGrAyQPEHywumdbTeAL4kEBn00Kzkj5o+TPV2ERRtYgFoydA3iya7tty6o5nVvgmjZVBtufJYgJAphfFdxOKTC+Rkey5JH59gKWch7UgyJcO87Sq7AskNuBuToZI8S0AixdbLNo3/P0g5pwBWhdAexMojW0BvA0iIKTA1UBHMvMHcWLagotFDUAR1AtAkCljcgkQDu/gu0XUDyCWArN9bmrZ6kFwgU4ZSu28WMBGCF4oXRfoDTLLIG+NBDNnFhcQBJTQ6mNVA7AFNk7PLbl2tsb3yfIRAQtRiqWKDyFBa7giLEOXludkc0fOAgHKqOeyiQjv5LknAvYblQ8hMhB9cwh0cGlbxBz3NgEi3AwbGvMRuguqhe1zbdESIZskIJTwEYHoWaC73D6XITRHAmAkDxqhfRkl0tynhnNVNWzZ0Oalw4wUp9umRSnqAUkA75OiAv1dCXTH2+ew95zrXmssCjs87wrtEqQsXFP3ZYE83/X+3QMig5KLukWkADgHdx7gmgHfFTEXug+9DhCn711BFFdUBajcoFBCKXRQC2srwrO2bc0D+PyIONdXIRuTHyyI6+4odvtc3XWxvemWQk/E6+LArK2XEnNsKO6ZpiAD0ZTOYieRZ6fIPRKyiQweX1DcOF1tgAMdun2uzdRV2pJb1MbifUaeD6l+nlvIrpWQk5dQKQAbmfAhRKy6Q4uT+uhL75gKwlj3yOseKO8zQW6EKVqUTUa0YkZBu+I79Pa5OtBjg4fbZGhqSXuAgWj5hTpKS8We8Ui8NkLwru153FmS/8Zg4UL4cTgHdOdaQxLYysDMV4ycAsdKEhzi7Qal4Vx6oYAkizsN6OnVymJDFdmBCPS9aRah0189ENE+5tfXtrWX/awBbakzwrisbOaw/Kxlx7KZITJdR5FyHCHwlmtemJRjW3o/LdagxyT1q0QKH+1FaO60ix4PMRbo+0x4w9Yi+MIkahlcuVzVeFJ1SGZf+D2YX1qwW0QO2f+ogadBgnxOLXR48jQUkGNeCrr2HPM0VKBDA6/cc8vTUEGOeS3yxHPM0xBBHrfZsOXJU1+ADu2823lu9Z9CzwItQVKEptVPTx3RpWeBlnjJe9YA8rSDPhNPFugfAQYATZCeCRL6KXcAAAAASUVORK5CYII=" />
+</span>
+</button>
+</form>
+</div>
+</div>
+<div class="button-donate">
+<a href="https://www.patreon.com/lemonchan" class="paypal-button patreon-button paypal-style-primary paypal-size-small" target="_blank" dir="ltr">
+<span class="paypal-button-content" dir="auto">
+Support me on <img alt="Patreon" src="https://images.gta5-mods.com/icons/patreon-logo.png" />
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="ad-300-content">
+<div class="ad-300">
+<div id="div-gpt-ad-1561413444550-3"></div>
+</div>
+</div>
+<div class="panel panel-default hidden-xs">
+<div class="panel-body">
+<h3 class="mt-0">
+<i class="fa fa-list-alt"></i>
+<span class="translation_missing" title="translation missing: en.user_file.all_versions">All Versions</span>
+</h3>
+<div class="well pull-left file-version-container ">
+<div class="pull-left">
+<i class="fa fa-file"></i>&nbsp;1.1.1 <span>(current)</span>
+<p>
+<span class="num-downloads">487 downloads <span class="file-size">, 231 KB</span></span>
+<br /><span class="num-downloads">6 days ago</span>
+</p>
+</div>
+<div class="pull-right">
+<a target="_blank" href="https://www.virustotal.com/gui/file/c5589d39cc8ecad35786c73ee8e8027d497aa0faf44ecd62894bf38383c81edb/detection/f-c5589d39cc8ecad35786c73ee8e8027d497aa0faf44ecd62894bf38383c81edb-1614803964"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+<a target="_blank" href="/scripts/playercompanion/download/112792"><i class="fa fa-download download-version"></i></a>
+</div>
+</div>
+<div class="well pull-left file-version-container ">
+<div class="pull-left">
+<i class="fa fa-file"></i>&nbsp;1.1
+<p>
+<span class="num-downloads">277 downloads <span class="file-size">, 231 KB</span></span>
+<br /><span class="num-downloads">February 25, 2021</span>
+</p>
+</div>
+<div class="pull-right">
+<a target="_blank" href="https://www.virustotal.com/gui/file/aef9e293d556d22ce59c65633f27e88b93575dc3d5ac2a0908180a1d8d027976/detection/f-aef9e293d556d22ce59c65633f27e88b93575dc3d5ac2a0908180a1d8d027976-1614241687"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+<a target="_blank" href="/scripts/playercompanion/download/112311"><i class="fa fa-download download-version"></i></a>
+</div>
+</div>
+<div class="well pull-left file-version-container ">
+<div class="pull-left">
+<i class="fa fa-file"></i>&nbsp;1.0.1
+<p>
+<span class="num-downloads">293 downloads <span class="file-size">, 231 KB</span></span>
+<br /><span class="num-downloads">February 15, 2021</span>
+</p>
+</div>
+<div class="pull-right">
+<a target="_blank" href="https://www.virustotal.com/gui/file/eb956b9e653174ea86b4e52718fa6def386548d434ab744687256136e81e517e/detection/f-eb956b9e653174ea86b4e52718fa6def386548d434ab744687256136e81e517e-1613360079"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+<a target="_blank" href="/scripts/playercompanion/download/111539"><i class="fa fa-download download-version"></i></a>
+</div>
+</div>
+<div class="well pull-left file-version-container ">
+<div class="pull-left">
+<i class="fa fa-file"></i>&nbsp;1.0
+<p>
+<span class="num-downloads">654 downloads <span class="file-size">, 231 KB</span></span>
+<br /><span class="num-downloads">December 25, 2020</span>
+</p>
+</div>
+<div class="pull-right">
+<a target="_blank" href="https://www.virustotal.com/gui/file/de244240e0faa97528ef25a3e5cd43f1adb775a94d2903d4bb8a141e3c563647/detection/f-de244240e0faa97528ef25a3e5cd43f1adb775a94d2903d4bb8a141e3c563647-1608878120"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+<a target="_blank" href="/scripts/playercompanion/download/107400"><i class="fa fa-download download-version"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div class="file-list">
+<div class="col-xs-12 hidden-xs">
+<h4>More mods by <a class="username" href="/users/justalemon">justalemon</a>:</h4>
+<div class="file-list-obj">
+ <a href="/scripts/controllerreload" title="ControllerReload: Reload SHVDN Scripts with a Controller" class="preview empty">
+<img title="ControllerReload: Reload SHVDN Scripts with a Controller" class="img-responsive" alt="ControllerReload: Reload SHVDN Scripts with a Controller" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/controllerreload/c8f0b8-Presentation.png" />
+<ul class="categories">
+<li>Featured</li>
+</ul>
+<div class="stats">
+<div>
+<span title="5.0 star rating">
+<span class="fa fa-star"></span> 5.0
+</span>
+</div>
+<div>
+<span title="3,039 Downloads">
+<span class="fa fa-download"></span> 3,039
+</span>
+<span class="stats-likes" title="80 Likes">
+<span class="fa fa-thumbs-up"></span> 80
+</span>
+</div>
+</div>
+</a>
+<div class="details">
+<div class="top">
+<div class="name">
+<a href="/scripts/controllerreload" title="ControllerReload: Reload SHVDN Scripts with a Controller">
+<span dir="ltr">ControllerReload: Reload SHVDN Scripts with a Controller</span>
+</a>
+</div>
+<div class="version" dir="ltr" title="2.0">2.0</div>
+</div>
+<div class="bottom">
+<span class="bottom-by">By</span> <a href="/users/justalemon" title="justalemon">justalemon</a>
+</div>
+</div>
+</div>
+<div class="file-list-obj">
+<a href="/tools/servermanager" title="LambentLight: FiveM/RedM Server Manager" class="preview empty">
+<img title="LambentLight: FiveM/RedM Server Manager" class="img-responsive" alt="LambentLight: FiveM/RedM Server Manager" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/servermanager/954aaf-Presentation.png" />
+<ul class="categories">
+<li>Config Editor</li>
+</ul>
+<div class="stats">
+<div>
+<span title="5.0 star rating">
+<span class="fa fa-star"></span> 5.0
+</span>
+</div>
+<div>
+<span title="9,021 Downloads">
+<span class="fa fa-download"></span> 9,021
+</span>
+<span class="stats-likes" title="60 Likes">
+<span class="fa fa-thumbs-up"></span> 60
+</span>
+</div>
+</div>
+</a>
+<div class="details">
+<div class="top">
+<div class="name">
+<a href="/tools/servermanager" title="LambentLight: FiveM/RedM Server Manager">
+<span dir="ltr">LambentLight: FiveM/RedM Server Manager</span>
+</a>
+</div>
+<div class="version" dir="ltr" title="2.2">2.2</div>
+</div>
+<div class="bottom">
+<span class="bottom-by">By</span> <a href="/users/justalemon" title="justalemon">justalemon</a>
+</div>
+</div>
+</div>
+<div class="file-list-obj">
+<a href="/tools/lemonui" title="LemonUI: Open Source UI Library" class="preview empty">
+<img title="LemonUI: Open Source UI Library" class="img-responsive" alt="LemonUI: Open Source UI Library" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/lemonui/98d8c9-Presentation.png" />
+<ul class="categories">
+<li>Developers</li>
+<li>Featured</li>
+</ul>
+<div class="stats">
+<div>
+<span title="5.0 star rating">
+<span class="fa fa-star"></span> 5.0
+</span>
+</div>
+<div>
+<span title="10,890 Downloads">
+<span class="fa fa-download"></span> 10,890
+</span>
+<span class="stats-likes" title="102 Likes">
+<span class="fa fa-thumbs-up"></span> 102
+</span>
+</div>
+</div>
+</a>
+<div class="details">
+<div class="top">
+<div class="name">
+<a href="/tools/lemonui" title="LemonUI: Open Source UI Library">
+<span dir="ltr">LemonUI: Open Source UI Library</span>
+</a>
+</div>
+<div class="version" dir="ltr" title="1.2">1.2</div>
+</div>
+<div class="bottom">
+<span class="bottom-by">By</span> <a href="/users/justalemon" title="justalemon">justalemon</a>
+</div>
+</div>
+</div>
+<div class="file-list-obj">
+<a href="/scripts/ggo" title="GGOV: Gun Gale Online on GTA V" class="preview empty">
+<img title="GGOV: Gun Gale Online on GTA V" class="img-responsive" alt="GGOV: Gun Gale Online on GTA V" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/ggo/dbf3bc-Presentation.png" />
+<ul class="categories">
+<li>Gameplay</li>
+<li>Vehicles</li>
+<li>Player</li>
+<li>Weapons</li>
+<li>.Net</li>
+<li>Featured</li>
+</ul>
+<div class="stats">
+<div>
+<span title="4.89 star rating">
+<span class="fa fa-star"></span> 4.89
+</span>
+</div>
+<div>
+<span title="4,669 Downloads">
+<span class="fa fa-download"></span> 4,669
+</span>
+<span class="stats-likes" title="114 Likes">
+<span class="fa fa-thumbs-up"></span> 114
+</span>
+</div>
+</div>
+</a>
+<div class="details">
+<div class="top">
+<div class="name">
+<a href="/scripts/ggo" title="GGOV: Gun Gale Online on GTA V">
+<span dir="ltr">GGOV: Gun Gale Online on GTA V</span>
+</a>
+</div>
+<div class="version" dir="ltr" title="3.0">3.0</div>
+</div>
+<div class="bottom">
+<span class="bottom-by">By</span> <a href="/users/justalemon" title="justalemon">justalemon</a>
+</div>
+</div>
+</div>
+<div class="file-list-obj">
+<a href="/scripts/dumpsterdiving" title="DumpsterDiving: Loot Dumpsters for Cash, Weapons or Trash" class="preview empty">
+<img title="DumpsterDiving: Loot Dumpsters for Cash, Weapons or Trash" class="img-responsive" alt="DumpsterDiving: Loot Dumpsters for Cash, Weapons or Trash" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/dumpsterdiving/f42d73-DumpsterDiving.png" />
+<ul class="categories">
+<li>Gameplay</li>
+<li>Player</li>
+<li>.Net</li>
+</ul>
+<div class="stats">
+<div>
+<span title="4.88 star rating">
+<span class="fa fa-star"></span> 4.88
+</span>
+</div>
+<div>
+<span title="2,040 Downloads">
+<span class="fa fa-download"></span> 2,040
+</span>
+<span class="stats-likes" title="65 Likes">
+<span class="fa fa-thumbs-up"></span> 65
+</span>
+</div>
+</div>
+</a>
+<div class="details">
+<div class="top">
+<div class="name">
+<a href="/scripts/dumpsterdiving" title="DumpsterDiving: Loot Dumpsters for Cash, Weapons or Trash">
+<span dir="ltr">DumpsterDiving: Loot Dumpsters for Cash, Weapons or Trash</span>
+</a>
+</div>
+<div class="version" dir="ltr" title="3.0">3.0</div>
+</div>
+<div class="bottom">
+<span class="bottom-by">By</span> <a href="/users/justalemon" title="justalemon">justalemon</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-7 col-lg-8">
+<div id="file-media">
+
+<div class="text-center">
+<a target="_blank" class="thumbnail mfp-image cover-media" title="PlayerCompanion: Extra Features for Addon Peds" href="https://img.gta5-mods.com/q95/images/playercompanion/850b86-Presentation.png"><img class="img-responsive" src="https://img.gta5-mods.com/q85-w800/images/playercompanion/850b86-Presentation.png" alt="850b86 presentation" /></a>
+</div>
+
+</div>
+<div class="ad-below-mod-images">
+<div id="div-gpt-ad-1561413444550-7"></div>
+</div>
+<h3 class="clearfix" dir="auto">
+<div class="pull-left file-stats">
+<i class="fa fa-cloud-download pull-left download-icon"></i>
+<div class="file-stat file-downloads pull-left">
+<span class="num-downloads">1,711</span>
+<label>Downloads</label>
+</div>
+<i class="fa fa-thumbs-o-up pull-left like-icon"></i>
+<div class="file-stat file-likes pull-left">
+<span class="num-likes">48</span>
+<label>Likes</label>
+</div>
+</div>
+<span class="comment-average-container pull-right">
+<span class="comment-average-rating" data-rating="5.0"></span>
+<label>5.0 / 5 stars (4 votes)</label>
+</span>
+</h3>
+<div id="featured-comment">
+<ul class="media-list pinned-comments">
+<li id="comment-1805988" class="comment media pinned" data-comment-id="1805988" data-username="justalemon" data-mentions="[]">
+<div class="media-left">
+<a href="/users/justalemon"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/404622/bccd77-LLENN.png" alt="Bccd77 llenn" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/justalemon">justalemon</a>
+<label class="label label-primary">Author</label>
+</div>
+<div class="pull-right flip">
+<span class="pinned-message inline-icon-text"><span class="fa fa-thumb-tack"></span>Pinned Comment</span>
+</div>
+</div>
+<div class="comment-text " dir="auto"><p>Documentation for implementing PlayerCompanion is available at <a target="_blank" href="https://github.com/justalemon/PlayerCompanion/wiki">https://github.com/justalemon/PlayerCompanion/wiki</a></p>
+<p>Non exhaustive list of mods that support PlayerCompanion at <a target="_blank" href="https://github.com/justalemon/PlayerCompanion/wiki/Supported-Mods">https://github.com/justalemon/PlayerCompanion/wiki/Supported-Mods</a></p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Sat, 13 Feb 2021 13:53:52 +0000">February 13, 2021</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="visible-xs-block">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="file-description">
+<span class="description-body description-collapsed" dir="auto">
+PlayerCompanion is a mod for Grand Theft Auto V that aims to extend the gameplay features of the game by adding some extra tools for developers and users alike:<br /> <br />* An Inventory system that can be shared across different mods, where any developer can add and consume Items<br />* Persistant Storage of Weapons for Addon Peds (including MK2 Weapons)<br />* Wallet for storing the Money of Addon Peds (dependant on mod compatibility)<br />* Custom HUD Colors for Addon Peds (customizable by the end user)<br /> <br />The main target of the mod is increase the replay value of Grand Theft Auto V by using PlayerCompanion in combination with other mods to increase the things that the user can do in the game.<br /> <br /><b>Support my Mods</b>: <a href="https://patreon.com/lemonchan">https://patreon.com/lemonchan</a> / <a href="https://paypal.me/justalemon">https://paypal.me/justalemon</a> <br /><b>Installation</b>: <a href="https://github.com/justalemon/PlayerCompanion#installation">https://github.com/justalemon/PlayerCompanion#installation</a> <br /><b>Usage</b>: <a href="https://github.com/justalemon/PlayerCompanion#usage">https://github.com/justalemon/PlayerCompanion#usage</a> <br /><b>Source Code</b>: <a href="https://github.com/justalemon/PlayerCompanion">https://github.com/justalemon/PlayerCompanion</a> (under MIT License)<br /><b>Feature Requests &amp; Bug Reports</b>: <a href="https://github.com/justalemon/PlayerCompanion/issues">https://github.com/justalemon/PlayerCompanion/issues</a> <br /><b>Full Changelog</b>: <a href="https://github.com/justalemon/PlayerCompanion/releases">https://github.com/justalemon/PlayerCompanion/releases</a>
+<div class="read-more-button-container">
+<div class="read-more-gradient"></div>
+<div class="read-more-button">Show Full Description</div>
+</div>
+</span>
+</div>
+<div id=tag-list>
+<div>
+<a href="/all/tags/gameplay/most-downloaded">
+<span class="label label-default">
+<span class="fa fa-tag"></span>
+Gameplay
+</span>
+</a>
+</div>
+<div>
+<a href="/all/tags/player/most-downloaded">
+<span class="label label-default">
+<span class="fa fa-tag"></span>
+Player
+</span>
+</a>
+</div>
+<div>
+<a href="/all/tags/weapons/most-downloaded">
+<span class="label label-default">
+<span class="fa fa-tag"></span>
+Weapons
+</span>
+</a>
+</div>
+<div>
+<a href="/all/tags/.net/most-downloaded">
+<span class="label label-default">
+<span class="fa fa-tag"></span>
+.Net
+</span>
+</a>
+</div>
+</div>
+<div id="file-dates">
+<br />
+<small title="Thu, 06 Aug 2020 02:39:52 +0000">
+<strong>First Uploaded:</strong>
+August 06, 2020
+</small>
+<br />
+<small title="Wed, 03 Mar 2021 20:41:29 +0000">
+<strong>Last Updated:</strong>
+6 days ago
+</small>
+<br />
+<small title="Wed, 10 Mar 2021 02:48:55 +0000">
+<strong>Last Downloaded:</strong>
+8 minutes ago
+</small>
+</div>
+</div>
+</div>
+<div class="panel panel-default visible-xs-block">
+<div class="panel-body">
+<h3 class="mt-0">
+<i class="fa fa-list-alt"></i>
+<span class="translation_missing" title="translation missing: en.user_file.all_versions">All Versions</span>
+</h3>
+<div class="well pull-left file-version-container ">
+<div class="pull-left">
+<i class="fa fa-file"></i>&nbsp;1.1.1 <span>(current)</span>
+<p>
+<span class="num-downloads">487 downloads <span class="file-size">, 231 KB</span></span>
+<br /><span class="num-downloads">6 days ago</span>
+</p>
+</div>
+<div class="pull-right">
+<a target="_blank" href="https://www.virustotal.com/gui/file/c5589d39cc8ecad35786c73ee8e8027d497aa0faf44ecd62894bf38383c81edb/detection/f-c5589d39cc8ecad35786c73ee8e8027d497aa0faf44ecd62894bf38383c81edb-1614803964"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+<a target="_blank" href="/scripts/playercompanion/download/112792"><i class="fa fa-download download-version"></i></a>
+</div>
+</div>
+<div class="well pull-left file-version-container ">
+<div class="pull-left">
+<i class="fa fa-file"></i>&nbsp;1.1
+<p>
+<span class="num-downloads">277 downloads <span class="file-size">, 231 KB</span></span>
+<br /><span class="num-downloads">February 25, 2021</span>
+</p>
+</div>
+<div class="pull-right">
+<a target="_blank" href="https://www.virustotal.com/gui/file/aef9e293d556d22ce59c65633f27e88b93575dc3d5ac2a0908180a1d8d027976/detection/f-aef9e293d556d22ce59c65633f27e88b93575dc3d5ac2a0908180a1d8d027976-1614241687"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+<a target="_blank" href="/scripts/playercompanion/download/112311"><i class="fa fa-download download-version"></i></a>
+</div>
+</div>
+<div class="well pull-left file-version-container ">
+<div class="pull-left">
+<i class="fa fa-file"></i>&nbsp;1.0.1
+<p>
+<span class="num-downloads">293 downloads <span class="file-size">, 231 KB</span></span>
+<br /><span class="num-downloads">February 15, 2021</span>
+</p>
+</div>
+<div class="pull-right">
+<a target="_blank" href="https://www.virustotal.com/gui/file/eb956b9e653174ea86b4e52718fa6def386548d434ab744687256136e81e517e/detection/f-eb956b9e653174ea86b4e52718fa6def386548d434ab744687256136e81e517e-1613360079"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+<a target="_blank" href="/scripts/playercompanion/download/111539"><i class="fa fa-download download-version"></i></a>
+</div>
+</div>
+<div class="well pull-left file-version-container ">
+<div class="pull-left">
+<i class="fa fa-file"></i>&nbsp;1.0
+<p>
+<span class="num-downloads">654 downloads <span class="file-size">, 231 KB</span></span>
+<br /><span class="num-downloads">December 25, 2020</span>
+</p>
+</div>
+<div class="pull-right">
+<a target="_blank" href="https://www.virustotal.com/gui/file/de244240e0faa97528ef25a3e5cd43f1adb775a94d2903d4bb8a141e3c563647/detection/f-de244240e0faa97528ef25a3e5cd43f1adb775a94d2903d4bb8a141e3c563647-1608878120"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+<a target="_blank" href="/scripts/playercompanion/download/107400"><i class="fa fa-download download-version"></i></a>
+</div>
+</div>
+</div>
+</div>
+<h3 class="clearfix comments-stats" dir="auto">
+<span class="pull-left">
+<span class="num-comments" data-count="33">33 Comments</span>
+</span>
+</h3>
+<div id="comments_mobile"></div>
+<div class="file-list">
+<div class="col-xs-12">
+<h4>More mods by <a class="username" href="/users/justalemon">justalemon</a>:</h4>
+<div class="file-list-obj">
+<a href="/scripts/controllerreload" title="ControllerReload: Reload SHVDN Scripts with a Controller" class="preview empty">
+<img title="ControllerReload: Reload SHVDN Scripts with a Controller" class="img-responsive" alt="ControllerReload: Reload SHVDN Scripts with a Controller" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/controllerreload/c8f0b8-Presentation.png" />
+<ul class="categories">
+<li>Featured</li>
+</ul>
+<div class="stats">
+<div>
+<span title="5.0 star rating">
+<span class="fa fa-star"></span> 5.0
+</span>
+</div>
+<div>
+<span title="3,039 Downloads">
+<span class="fa fa-download"></span> 3,039
+</span>
+<span class="stats-likes" title="80 Likes">
+<span class="fa fa-thumbs-up"></span> 80
+</span>
+</div>
+</div>
+</a>
+<div class="details">
+<div class="top">
+<div class="name">
+<a href="/scripts/controllerreload" title="ControllerReload: Reload SHVDN Scripts with a Controller">
+<span dir="ltr">ControllerReload: Reload SHVDN Scripts with a Controller</span>
+</a>
+</div>
+<div class="version" dir="ltr" title="2.0">2.0</div>
+</div>
+<div class="bottom">
+<span class="bottom-by">By</span> <a href="/users/justalemon" title="justalemon">justalemon</a>
+</div>
+</div>
+</div>
+<div class="file-list-obj">
+<a href="/tools/servermanager" title="LambentLight: FiveM/RedM Server Manager" class="preview empty">
+<img title="LambentLight: FiveM/RedM Server Manager" class="img-responsive" alt="LambentLight: FiveM/RedM Server Manager" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/servermanager/954aaf-Presentation.png" />
+<ul class="categories">
+<li>Config Editor</li>
+</ul>
+<div class="stats">
+<div>
+<span title="5.0 star rating">
+<span class="fa fa-star"></span> 5.0
+</span>
+</div>
+<div>
+<span title="9,021 Downloads">
+<span class="fa fa-download"></span> 9,021
+</span>
+<span class="stats-likes" title="60 Likes">
+<span class="fa fa-thumbs-up"></span> 60
+</span>
+</div>
+</div>
+</a>
+<div class="details">
+<div class="top">
+<div class="name">
+<a href="/tools/servermanager" title="LambentLight: FiveM/RedM Server Manager">
+<span dir="ltr">LambentLight: FiveM/RedM Server Manager</span>
+</a>
+</div>
+<div class="version" dir="ltr" title="2.2">2.2</div>
+</div>
+<div class="bottom">
+<span class="bottom-by">By</span> <a href="/users/justalemon" title="justalemon">justalemon</a>
+</div>
+</div>
+</div>
+<div class="file-list-obj">
+<a href="/tools/lemonui" title="LemonUI: Open Source UI Library" class="preview empty">
+<img title="LemonUI: Open Source UI Library" class="img-responsive" alt="LemonUI: Open Source UI Library" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/lemonui/98d8c9-Presentation.png" />
+<ul class="categories">
+<li>Developers</li>
+<li>Featured</li>
+</ul>
+<div class="stats">
+<div>
+<span title="5.0 star rating">
+<span class="fa fa-star"></span> 5.0
+</span>
+</div>
+<div>
+<span title="10,890 Downloads">
+<span class="fa fa-download"></span> 10,890
+</span>
+<span class="stats-likes" title="102 Likes">
+<span class="fa fa-thumbs-up"></span> 102
+</span>
+</div>
+</div>
+</a>
+<div class="details">
+<div class="top">
+<div class="name">
+<a href="/tools/lemonui" title="LemonUI: Open Source UI Library">
+<span dir="ltr">LemonUI: Open Source UI Library</span>
+</a>
+</div>
+<div class="version" dir="ltr" title="1.2">1.2</div>
+</div>
+<div class="bottom">
+<span class="bottom-by">By</span> <a href="/users/justalemon" title="justalemon">justalemon</a>
+</div>
+</div>
+</div>
+<div class="file-list-obj">
+<a href="/scripts/ggo" title="GGOV: Gun Gale Online on GTA V" class="preview empty">
+<img title="GGOV: Gun Gale Online on GTA V" class="img-responsive" alt="GGOV: Gun Gale Online on GTA V" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/ggo/dbf3bc-Presentation.png" />
+<ul class="categories">
+<li>Gameplay</li>
+<li>Vehicles</li>
+<li>Player</li>
+<li>Weapons</li>
+<li>.Net</li>
+<li>Featured</li>
+</ul>
+<div class="stats">
+<div>
+<span title="4.89 star rating">
+<span class="fa fa-star"></span> 4.89
+</span>
+</div>
+<div>
+<span title="4,669 Downloads">
+<span class="fa fa-download"></span> 4,669
+</span>
+<span class="stats-likes" title="114 Likes">
+<span class="fa fa-thumbs-up"></span> 114
+</span>
+</div>
+</div>
+</a>
+<div class="details">
+<div class="top">
+<div class="name">
+<a href="/scripts/ggo" title="GGOV: Gun Gale Online on GTA V">
+<span dir="ltr">GGOV: Gun Gale Online on GTA V</span>
+</a>
+</div>
+<div class="version" dir="ltr" title="3.0">3.0</div>
+</div>
+<div class="bottom">
+<span class="bottom-by">By</span> <a href="/users/justalemon" title="justalemon">justalemon</a>
+</div>
+</div>
+</div>
+<div class="file-list-obj">
+<a href="/scripts/dumpsterdiving" title="DumpsterDiving: Loot Dumpsters for Cash, Weapons or Trash" class="preview empty">
+<img title="DumpsterDiving: Loot Dumpsters for Cash, Weapons or Trash" class="img-responsive" alt="DumpsterDiving: Loot Dumpsters for Cash, Weapons or Trash" src="https://img.gta5-mods.com/q75-w500-h333-cfill/images/dumpsterdiving/f42d73-DumpsterDiving.png" />
+<ul class="categories">
+<li>Gameplay</li>
+<li>Player</li>
+<li>.Net</li>
+</ul>
+<div class="stats">
+<div>
+<span title="4.88 star rating">
+<span class="fa fa-star"></span> 4.88
+</span>
+</div>
+<div>
+<span title="2,040 Downloads">
+<span class="fa fa-download"></span> 2,040
+</span>
+<span class="stats-likes" title="65 Likes">
+<span class="fa fa-thumbs-up"></span> 65
+</span>
+</div>
+</div>
+</a>
+<div class="details">
+<div class="top">
+<div class="name">
+<a href="/scripts/dumpsterdiving" title="DumpsterDiving: Loot Dumpsters for Cash, Weapons or Trash">
+<span dir="ltr">DumpsterDiving: Loot Dumpsters for Cash, Weapons or Trash</span>
+</a>
+</div>
+<div class="version" dir="ltr" title="3.0">3.0</div>
+</div>
+<div class="bottom">
+<span class="bottom-by">By</span> <a href="/users/justalemon" title="justalemon">justalemon</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="hidden-xs">
+<ul class="nav nav-tabs" role="tablist">
+<li role="presentation" class="active">
+<a class="url-push" href="#description_tab" aria-controls="home" role="tab" data-toggle="tab">
+<i class="fa fa-file-text-o"></i>
+&nbsp;Description
+</a>
+</li>
+<li role="presentation">
+<a class="url-push" href="#comments_tab" aria-controls="profile" role="tab" data-toggle="tab">
+<i class="fa fa-comments-o"></i>
+&nbsp;Comments (33)
+</a>
+</li>
+</ul>
+<div class="tab-content">
+
+<div role="tabpanel" class="tab-pane  active " id="description_tab">
+<div class="panel panel-default" style="margin-top: 8px">
+<div class="panel-body">
+ <div class="file-description">
+<span class="description-body " dir="auto">
+PlayerCompanion is a mod for Grand Theft Auto V that aims to extend the gameplay features of the game by adding some extra tools for developers and users alike:<br /> <br />* An Inventory system that can be shared across different mods, where any developer can add and consume Items<br />* Persistant Storage of Weapons for Addon Peds (including MK2 Weapons)<br />* Wallet for storing the Money of Addon Peds (dependant on mod compatibility)<br />* Custom HUD Colors for Addon Peds (customizable by the end user)<br /> <br />The main target of the mod is increase the replay value of Grand Theft Auto V by using PlayerCompanion in combination with other mods to increase the things that the user can do in the game.<br /> <br /><b>Support my Mods</b>: <a href="https://patreon.com/lemonchan">https://patreon.com/lemonchan</a> / <a href="https://paypal.me/justalemon">https://paypal.me/justalemon</a> <br /><b>Installation</b>: <a href="https://github.com/justalemon/PlayerCompanion#installation">https://github.com/justalemon/PlayerCompanion#installation</a> <br /><b>Usage</b>: <a href="https://github.com/justalemon/PlayerCompanion#usage">https://github.com/justalemon/PlayerCompanion#usage</a> <br /><b>Source Code</b>: <a href="https://github.com/justalemon/PlayerCompanion">https://github.com/justalemon/PlayerCompanion</a> (under MIT License)<br /><b>Feature Requests &amp; Bug Reports</b>: <a href="https://github.com/justalemon/PlayerCompanion/issues">https://github.com/justalemon/PlayerCompanion/issues</a> <br /><b>Full Changelog</b>: <a href="https://github.com/justalemon/PlayerCompanion/releases">https://github.com/justalemon/PlayerCompanion/releases</a>
+</span>
+</div>
+<div id=tag-list>
+<div>
+<a href="/all/tags/gameplay/most-downloaded">
+<span class="label label-default">
+<span class="fa fa-tag"></span>
+Gameplay
+</span>
+</a>
+</div>
+<div>
+<a href="/all/tags/player/most-downloaded">
+<span class="label label-default">
+<span class="fa fa-tag"></span>
+Player
+</span>
+</a>
+</div>
+<div>
+<a href="/all/tags/weapons/most-downloaded">
+<span class="label label-default">
+<span class="fa fa-tag"></span>
+Weapons
+</span>
+</a>
+</div>
+<div>
+<a href="/all/tags/.net/most-downloaded">
+<span class="label label-default">
+<span class="fa fa-tag"></span>
+.Net
+</span>
+</a>
+</div>
+</div>
+<div id="file-dates">
+<br />
+<small title="Thu, 06 Aug 2020 02:39:52 +0000">
+<strong>First Uploaded:</strong>
+August 06, 2020
+</small>
+<br />
+<small title="Wed, 03 Mar 2021 20:41:29 +0000">
+<strong>Last Updated:</strong>
+6 days ago
+</small>
+<br />
+<small title="Wed, 10 Mar 2021 02:48:55 +0000">
+<strong>Last Downloaded:</strong>
+8 minutes ago
+</small>
+</div>
+ </div>
+</div>
+</div>
+
+<div role="tabpanel" class="tab-pane " id="comments_tab">
+<div id="comments">
+<ul class="media-list pinned-comments">
+</ul>
+<div class="text-center">
+<button class="view-more btn btn-o-primary btn-block btn-sm">
+Show previous 13 comments
+</button>
+</div>
+<ul class="media-list comments-list">
+<li id="comment-1771969" class="comment media " data-comment-id="1771969" data-username="justalemon" data-mentions="[]">
+<div class="media-left">
+<a href="/users/justalemon"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/404622/bccd77-LLENN.png" alt="Bccd77 llenn" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/justalemon">justalemon</a>
+<label class="label label-primary">Author</label>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p>I have added some documentation for both Users and Developers at <a target="_blank" href="https://github.com/justalemon/PlayerCompanion/wiki">https://github.com/justalemon/PlayerCompanion/wiki</a></p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Sat, 02 Jan 2021 08:37:12 +0000">January 02, 2021</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1773492" class="comment media " data-comment-id="1773492" data-username="SylveticHearts" data-mentions="[&quot;justalemon&quot;]">
+<div class="media-left">
+<a href="/users/SylveticHearts"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/972175/9668a2-Estonia.jpg" alt="9668a2 estonia" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/SylveticHearts">SylveticHearts</a>
+</div>
+<div class="pull-right flip">
+<span class="comment-rating" data-rating="5.0"></span>
+</div>
+</div>
+<div class="comment-text " dir="auto"><p><a class="mention" href="/users/justalemon">@justalemon</a> ah, okay.</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Sun, 03 Jan 2021 17:32:16 +0000">January 03, 2021</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1785845" class="comment media " data-comment-id="1785845" data-username="F4xUu" data-mentions="[&quot;justalemon&quot;]">
+<div class="media-left">
+<a href="/users/F4xUu"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/presets/default.jpg" alt="Default" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/F4xUu">F4xUu</a>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p><a class="mention" href="/users/justalemon">@justalemon</a> when i open the game the script immediately stops: aborted script, Yes my game its original, yes i have the last versions of scripthookv and scripthookv.net, No im not gonna uninstall other mods</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Sun, 17 Jan 2021 15:01:51 +0000">January 17, 2021</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1786651" class="comment media " data-comment-id="1786651" data-username="justalemon" data-mentions="[&quot;F4xUu&quot;]">
+<div class="media-left">
+<a href="/users/justalemon"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/404622/bccd77-LLENN.png" alt="Bccd77 llenn" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/justalemon">justalemon</a>
+<label class="label label-primary">Author</label>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p><a class="mention" href="/users/F4xUu">@F4xUu</a> Maybe read the log files?</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Mon, 18 Jan 2021 12:57:16 +0000">January 18, 2021</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1787116" class="comment media " data-comment-id="1787116" data-username="F4xUu" data-mentions="[]">
+<div class="media-left">
+<a href="/users/F4xUu"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/presets/default.jpg" alt="Default" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/F4xUu">F4xUu</a>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p>it doesn&quot;t even show at the ScriptHookVDotNet.log, its like the mod isn&#39;t even there</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Mon, 18 Jan 2021 22:29:30 +0000">January 18, 2021</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1790955" class="comment media " data-comment-id="1790955" data-username="thalilmythos" data-mentions="[]">
+<div class="media-left">
+<a href="/users/thalilmythos"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/presets/lamar.jpg" alt="Lamar" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/thalilmythos">thalilmythos</a>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p>Would this be usefull for saving mk2 weapons on F T AND M?</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Sat, 23 Jan 2021 20:52:47 +0000">January 23, 2021</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1796426" class="comment media " data-comment-id="1796426" data-username="justalemon" data-mentions="[&quot;thalilmythos&quot;]">
+<div class="media-left">
+<a href="/users/justalemon"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/404622/bccd77-LLENN.png" alt="Bccd77 llenn" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/justalemon">justalemon</a>
+<label class="label label-primary">Author</label>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p><a class="mention" href="/users/thalilmythos">@thalilmythos</a> Yes, it saves MK2 weapon modifications alongside the ammo type.</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Sun, 31 Jan 2021 03:54:59 +0000">January 31, 2021</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1798741" class="comment media " data-comment-id="1798741" data-username="HonoraryF" data-mentions="[]">
+<div class="media-left">
+<a href="/users/HonoraryF"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/presets/default.jpg" alt="Default" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/HonoraryF">HonoraryF</a>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p>What are some compatible mods???</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Wed, 03 Feb 2021 06:06:15 +0000">February 03, 2021</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1807485" class="comment media " data-comment-id="1807485" data-username="XblapYblapZblap" data-mentions="[]">
+<div class="media-left">
+<a href="/users/XblapYblapZblap"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/presets/default.jpg" alt="Default" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/XblapYblapZblap">XblapYblapZblap</a>
+</div>
+<div class="pull-right flip">
+<span class="comment-rating" data-rating="5.0"></span>
+</div>
+</div>
+<div class="comment-text " dir="auto"><p>yess i was waiting for this! thanks</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Mon, 15 Feb 2021 14:16:57 +0000">February 15, 2021</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1807504" class="comment media " data-comment-id="1807504" data-username="Fabito48hd" data-mentions="[]">
+<div class="media-left">
+<a href="/users/Fabito48hd"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/431332/1b4ef0-22308935_809769542557148_7043782519647624940_n.jpg" alt="1b4ef0 22308935 809769542557148 7043782519647624940 n" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/Fabito48hd">Fabito48hd</a>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p>Hello!</p>
+<p>Sorry but I don&#39;t understand this mod. Does it mean that by controlling another ped who is not a character in the story, he will have inventory and money of his own? </p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Mon, 15 Feb 2021 15:13:16 +0000">February 15, 2021</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1808062" class="comment media " data-comment-id="1808062" data-username="elsanhoty" data-mentions="[&quot;Fabito48hd&quot;]">
+<div class="media-left">
+<a href="/users/elsanhoty"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/952776/450ed2-Screenshot_1.jpg" alt="450ed2 screenshot 1" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/elsanhoty">elsanhoty</a>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p><a class="mention" href="/users/Fabito48hd">@Fabito48hd</a> yes exactly (addon peds) is a custom characters people have made </p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Tue, 16 Feb 2021 07:44:08 +0000">February 16, 2021</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1808917" class="comment media " data-comment-id="1808917" data-username="black7sv3n" data-mentions="[]">
+<div class="media-left">
+<a href="/users/black7sv3n"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/presets/default.jpg" alt="Default" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/black7sv3n">black7sv3n</a>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p>[08:00:54] [ERROR] Failed to load assembly PlayerCompanion.dll: System.IO.FileNotFoundException: Could not load file or assembly &#39;Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed&#39; or one of its dependencies. The system cannot find the file specified.
+<br />File name: &#39;Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed&#39;</p>
+<p>I cant load inventory. -_-</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Wed, 17 Feb 2021 13:10:29 +0000">February 17, 2021</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1815176" class="comment media " data-comment-id="1815176" data-username="Kazboy" data-mentions="[&quot;black7sv3n&quot;]">
+<div class="media-left">
+<a href="/users/Kazboy"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/924557/36c092-Screenshot 2020-08-04 15.19.42.png" alt="36c092 screenshot 2020 08 04 15.19.42" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/Kazboy">Kazboy</a>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p><a class="mention" href="/users/black7sv3n">@black7sv3n</a> have you figured out how this works ive followed all the instructions but when i get in game same thing happens to me my inventory doesnt open</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Fri, 26 Feb 2021 12:18:33 +0000">February 26, 2021</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1818401" class="comment media " data-comment-id="1818401" data-username="justalemon" data-mentions="[&quot;black7sv3n&quot;]">
+<div class="media-left">
+<a href="/users/justalemon"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/404622/bccd77-LLENN.png" alt="Bccd77 llenn" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/justalemon">justalemon</a>
+<label class="label label-primary">Author</label>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p><a class="mention" href="/users/black7sv3n">@black7sv3n</a> You didn&#39;t copied the Newtonsoft.Json.dll file to your scripts directory</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Wed, 03 Mar 2021 01:33:39 +0000">7 days ago</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1819050" class="comment media " data-comment-id="1819050" data-username="Dogamizer" data-mentions="[&quot;justalemon&quot;]">
+<div class="media-left">
+<a href="/users/Dogamizer"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/81980/422191-pic.jpg" alt="422191 pic" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/Dogamizer">Dogamizer</a>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p><a class="mention" href="/users/justalemon">@justalemon</a> I&#39;m still a little bit confused. So using the wallet, can any player ped other than Franklin, Michael and Trevor be able to spend money (Game.Player.Money) without using a hash switcher like Unknown Modder&#39;s Character Swap? For example, can my addon ped buy a drink from the vending machine or pay for petrol using an already established fuel script, or do new scripts have to be written to take advantage of the wallet system?</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Thu, 04 Mar 2021 01:56:10 +0000">6 days ago</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1819072" class="comment media " data-comment-id="1819072" data-username="justalemon" data-mentions="[&quot;Dogamizer&quot;]">
+<div class="media-left">
+<a href="/users/justalemon"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/404622/bccd77-LLENN.png" alt="Bccd77 llenn" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/justalemon">justalemon</a>
+<label class="label label-primary">Author</label>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p><a class="mention" href="/users/Dogamizer">@Dogamizer</a> No. The developers need to implement calls to Companion.Wallet.Money for the feature to work.</p>
+<p>I might do some monkey patching for Game.Player.Money once I go more in depth when it comes to patching functions during runtime (I found a library called Harmony but I need to learn how to use it).</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Thu, 04 Mar 2021 02:13:45 +0000">6 days ago</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1819075" class="comment media " data-comment-id="1819075" data-username="Dogamizer" data-mentions="[&quot;justalemon&quot;]">
+<div class="media-left">
+<a href="/users/Dogamizer"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/81980/422191-pic.jpg" alt="422191 pic" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/Dogamizer">Dogamizer</a>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p><a class="mention" href="/users/justalemon">@justalemon</a> Ah, okay. Thanks for the clarification.</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Thu, 04 Mar 2021 02:22:58 +0000">6 days ago</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1819083" class="comment media " data-comment-id="1819083" data-username="justalemon" data-mentions="[&quot;Dogamizer&quot;]">
+<div class="media-left">
+<a href="/users/justalemon"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/404622/bccd77-LLENN.png" alt="Bccd77 llenn" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/justalemon">justalemon</a>
+<label class="label label-primary">Author</label>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p><a class="mention" href="/users/Dogamizer">@Dogamizer</a> If you want to keep track about this issue, here is the link to it: <a target="_blank" href="https://github.com/justalemon/PlayerCompanion/issues/4">https://github.com/justalemon/PlayerCompanion/issues/4</a></p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Thu, 04 Mar 2021 02:40:10 +0000">6 days ago</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li id="comment-1819134" class="comment media " data-comment-id="1819134" data-username="liuyu2231086" data-mentions="[]">
+<div class="media-left">
+<a href="/users/liuyu2231086"><img class="media-object" src="https://img.gta5-mods.com/q75-w100-h100-cfill/avatars/presets/default.jpg" alt="Default" /></a>
+</div>
+<div class="media-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="media-heading clearfix">
+<div class="pull-left flip" dir="auto">
+<a href="/users/liuyu2231086">liuyu2231086</a>
+</div>
+<div class="pull-right flip">
+</div>
+</div>
+<div class="comment-text " dir="auto"><p>是的作者你好 我该如何真确导入该MOD是的他先是了错误 无法正确工作 任何解释</p></div>
+<div class="media-details clearfix">
+<div class="row">
+<div class="col-md-8 text-left flip">
+</div>
+<div class="col-md-4 text-right flip" title="Thu, 04 Mar 2021 06:17:35 +0000">6 days ago</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<div class="alert alert-info">
+Join the conversation! <a href="/login?r=/scripts/playercompanion">Log In</a> or <a href="/register?r=/scripts/playercompanion">register</a> for an account to be able to comment.
+</div>
+ </div>
+</div>
+</div>
+</div>
+<div class="ad-below-mod-description">
+<div id="div-gpt-ad-1561413444550-11"></div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="downloadModal" tabindex="-1" role="dialog">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-body">
+<div class="panel panel-default">
+<div class="panel-body">
+<h3 class="mt-0">
+<i class="fa fa-list-alt"></i>
+<span class="translation_missing" title="translation missing: en.user_file.all_versions">All Versions</span>
+</h3>
+<div class="well pull-left file-version-container ">
+<div class="pull-left">
+<i class="fa fa-file"></i>&nbsp;1.1.1 <span>(current)</span>
+<p>
+<span class="num-downloads">487 downloads <span class="file-size">, 231 KB</span></span>
+<br /><span class="num-downloads">6 days ago</span>
+</p>
+</div>
+<div class="pull-right">
+<a target="_blank" href="https://www.virustotal.com/gui/file/c5589d39cc8ecad35786c73ee8e8027d497aa0faf44ecd62894bf38383c81edb/detection/f-c5589d39cc8ecad35786c73ee8e8027d497aa0faf44ecd62894bf38383c81edb-1614803964"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+<a target="_blank" href="/scripts/playercompanion/download/112792"><i class="fa fa-download download-version"></i></a>
+</div>
+</div>
+<div class="well pull-left file-version-container ">
+<div class="pull-left">
+<i class="fa fa-file"></i>&nbsp;1.1
+<p>
+<span class="num-downloads">277 downloads <span class="file-size">, 231 KB</span></span>
+<br /><span class="num-downloads">February 25, 2021</span>
+</p>
+</div>
+<div class="pull-right">
+<a target="_blank" href="https://www.virustotal.com/gui/file/aef9e293d556d22ce59c65633f27e88b93575dc3d5ac2a0908180a1d8d027976/detection/f-aef9e293d556d22ce59c65633f27e88b93575dc3d5ac2a0908180a1d8d027976-1614241687"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+<a target="_blank" href="/scripts/playercompanion/download/112311"><i class="fa fa-download download-version"></i></a>
+</div>
+</div>
+<div class="well pull-left file-version-container ">
+<div class="pull-left">
+<i class="fa fa-file"></i>&nbsp;1.0.1
+<p>
+<span class="num-downloads">293 downloads <span class="file-size">, 231 KB</span></span>
+<br /><span class="num-downloads">February 15, 2021</span>
+</p>
+</div>
+<div class="pull-right">
+<a target="_blank" href="https://www.virustotal.com/gui/file/eb956b9e653174ea86b4e52718fa6def386548d434ab744687256136e81e517e/detection/f-eb956b9e653174ea86b4e52718fa6def386548d434ab744687256136e81e517e-1613360079"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+<a target="_blank" href="/scripts/playercompanion/download/111539"><i class="fa fa-download download-version"></i></a>
+</div>
+</div>
+<div class="well pull-left file-version-container ">
+<div class="pull-left">
+ <i class="fa fa-file"></i>&nbsp;1.0
+<p>
+<span class="num-downloads">654 downloads <span class="file-size">, 231 KB</span></span>
+<br /><span class="num-downloads">December 25, 2020</span>
+</p>
+</div>
+<div class="pull-right">
+<a target="_blank" href="https://www.virustotal.com/gui/file/de244240e0faa97528ef25a3e5cd43f1adb775a94d2903d4bb8a141e3c563647/detection/f-de244240e0faa97528ef25a3e5cd43f1adb775a94d2903d4bb8a141e3c563647-1608878120"><i data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-html="true" data-title="<b class='color-success'>This file is safe <i class='fa fa-check-circle-o'></i></b>" data-content="<i>This file has been scanned for viruses and is safe to download.</i>" class="fa fa-shield vt-version"></i></a>
+<a target="_blank" href="/scripts/playercompanion/download/107400"><i class="fa fa-download download-version"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="video-ad">
+
+<div id=div-gpt-ad-1561413444550-5></div>
+
+</div>
+<script>
+      if (window.innerWidth < 900) {
+          var videoAdContent = document.getElementById('video-ad');
+          videoAdContent.parentNode.removeChild(videoAdContent);
+      }
+  </script>
+<div id="footer">
+<div class="container">
+<div class="row">
+<div class="col-sm-4 col-md-4">
+<a href="/users/Slim Trashman" class="staff">Designed in Alderney</a><br />
+<a href="/users/rappo" class="staff">Made in Los Santos</a>
+</div>
+<div class="col-sm-8 col-md-8 hidden-xs">
+<div class="col-md-4 hidden-sm hidden-xs">
+<ul>
+<li>
+<a href="/tools">GTA 5 Modding Tools</a>
+</li>
+<li>
+<a href="/vehicles">GTA 5 Vehicle Mods</a>
+</li>
+<li>
+<a href="/paintjobs">GTA 5 Vehicle Paint Job Mods</a>
+</li>
+<li>
+<a href="/weapons">GTA 5 Weapon Mods</a>
+</li>
+<li>
+<a href="/scripts">GTA 5 Script Mods</a>
+</li>
+<li>
+<a href="/player">GTA 5 Player Mods</a>
+</li>
+<li>
+<a href="/maps">GTA 5 Map Mods</a>
+</li>
+<li>
+<a href="/misc">GTA 5 Misc Mods</a>
+</li>
+</ul>
+</div>
+<div class="col-sm-4 col-md-4 hidden-xs">
+<ul>
+<li>
+<a href="/all">Latest Files</a>
+</li>
+<li>
+<a href="/all/tags/featured">Featured Files</a>
+</li>
+<li>
+<a href="/all/most-liked">Most Liked Files</a>
+</li>
+<li>
+<a href="/all/most-downloaded">Most Downloaded Files</a>
+</li>
+<li>
+<a href="/all/highest-rated">Highest Rated Files</a>
+</li>
+<li>
+<a href="/leaderboard">GTA5-Mods.com Leaderboard</a>
+</li>
+</ul>
+</div>
+<div class="col-sm-4 col-md-4">
+<ul>
+<li>
+<a href="/contact">
+Contact
+</a>
+</li>
+<li>
+<a href="/privacy">
+Privacy Policy
+</a>
+</li>
+<li>
+<a href="/terms">
+Terms of Use
+</a>
+</li>
+<li>
+<a href="https://www.cognitoforms.com/NexusMods/_5ModsDMCAForm">
+DMCA
+</a>
+</li>
+<li>
+<a href="https://www.twitter.com/5mods" class="social" target="_blank" title="@5mods on Twitter">
+<span class="fa fa-twitter-square"></span>
+@5mods on Twitter
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/5mods" class="social" target="_blank" title="5mods on Facebook">
+<span class="fa fa-facebook-official"></span>
+5mods on Facebook
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="/assets/i18n-df0d92353b403d0e94d1a4f346ded6a37d72d69e9a14f2caa6d80e755877da17.js"></script>
+<script src="/assets/translations-a23fafd59dbdbfa99c7d1d49b61f0ece1d1aff5b9b63d693ca14bfa61420d77c.js"></script>
+<script type="text/javascript">
+		I18n.defaultLocale = 'en';
+		I18n.locale = 'en';
+		I18n.fallbacks = true;
+
+		var GTA5M = {User: {authenticated: false}};
+</script>
+<script src="/assets/application-c3cfde3ee0eb5f0dc00b4c09f0727252b9585c4db6e0898d9e103cdc3077e44f.js"></script>
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "CreativeWork",
+      "about": "Grand Theft Auto V",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "4",
+        "bestRating": 5,
+        "worstRating": 0.5
+      },
+      "author": "justalemon",
+      "comment_count": "33",
+      "dateModified": "2021-03-03T20:41:29Z",
+      "datePublished": "2020-08-06T02:39:52Z",
+      "name": "PlayerCompanion: Extra Features for Addon Peds"
+    }
+  </script>
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://www.gta5-mods.com/scripts",
+          "name": "Scripts"
+        }
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://www.gta5-mods.com/scripts/playercompanion",
+          "name": "PlayerCompanion: Extra Features for Addon Peds"
+        }
+      }]
+    }
+
+  </script>
+<script src="https://apis.google.com/js/platform.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<noscript><img src="//pw.nexusmods.com/piwik.php?idsite=2&rec=1" style="border:0;" alt=""/></noscript>
+
+<script type="text/javascript">
+		var _qevents = _qevents || [];
+		(function () {
+				var elem = document.createElement('script');
+				elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+				elem.async = true;
+				elem.type = "text/javascript";
+				var scpt = document.getElementsByTagName('script')[0];
+				scpt.parentNode.insertBefore(elem, scpt);
+		})();
+		_qevents.push({
+				qacct: "p-bcgV-fdjlWlQo"
+		});
+</script>
+<noscript>
+	<div style="display:none;">
+		<img src="//pixel.quantserve.com/pixel/p-bcgV-fdjlWlQo.gif" border="0" height="1" width="1" alt="Quantcast"/>
+	</div>
+</noscript>
+
+
+<script type="application/javascript">
+    (function () {
+        console.log("ABD: ", window.AdvertStatus);
+        if (window.AdvertStatus === undefined) {
+            var container = document.createElement('div');
+            container.classList.add('container');
+
+            var div = document.createElement('div');
+            div.classList.add('alert', 'alert-warning');
+            div.innerText = "Ad-blockers can cause errors with the image upload service, please consider turning them off if you have issues.";
+            container.appendChild(div);
+
+            var upload = document.getElementById('upload');
+            if (upload) {
+                upload.insertBefore(container, upload.firstChild);
+            }
+        }
+    })();
+</script>
+<div class="js-paloma-hook" data-id="1615345041209">
+<script type="text/javascript">
+    (function(){
+      // Do not continue if Paloma not found.
+      if (window['Paloma'] === undefined) {
+        return true;
+      }
+
+      Paloma.env = 'production';
+
+      // Remove any callback details if any
+      $('.js-paloma-hook[data-id!=' + 1615345041209 + ']').remove();
+
+      var request = {"resource":"UserFile","action":"index","params":{}};
+
+      Paloma.engine.setRequest({
+        id: "1615345041209",
+        resource: request['resource'],
+        action: request['action'],
+        params: request['params']});
+    })();
+  </script>
+</div>
+</body>
+</html>
